@@ -1,5 +1,7 @@
 # Demoblaze E2E Automation - Playwright Prueba Devsu
 
+
+
 ## Requisitos
 - Node.js >= 18
 - Git
@@ -28,3 +30,4 @@ Ruta del reporte:
 - pages/: Page Object Model
 - tests/: pruebas E2E
 - data/: data externa
+
