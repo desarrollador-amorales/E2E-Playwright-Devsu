@@ -12,18 +12,18 @@
    npx playwright install
 
 ## Ejecutar pruebas
-- Prueba e2e
+- Prueba e2e:
    npx playwright test --project=ui-demoblaze
-- Prueba Api
+- Prueba Api:
    npx playwright test --project=api-petstore
--Todas las pruebas
+- Todas las pruebas
    npx playwright test
 
 ## Reportes (Opcional)
-Después de ejecutar:
+- Después de ejecutar:
   npx playwright show-report
 
-Ruta del reporte:
+- Ruta del reporte:
   playwright-report/index.html
 
 ## Estructura
@@ -31,8 +31,6 @@ Ruta del reporte:
 - tests/: pruebas E2E
 - data/: data externa
 - api/: pruebas de Api
-
-
 
 ## Intefaz grafica (Opcional)
 npx playwright test --ui
