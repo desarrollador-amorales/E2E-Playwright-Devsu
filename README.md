@@ -31,3 +31,6 @@ Ruta del reporte:
 - tests/: pruebas E2E
 - data/: data externa
 
+
+## Intefaz grafica (Opcional)
+npx playwright test --ui

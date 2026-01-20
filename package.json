@@ -1,0 +1,25 @@
+{
+  "name": "e2e-playwright-devsu",
+  "version": "1.0.0",
+  "description": "- Node.js >= 18\r - Git",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desarrollador-amorales/E2E-Playwright-Devsu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/desarrollador-amorales/E2E-Playwright-Devsu/issues"
+  },
+  "homepage": "https://github.com/desarrollador-amorales/E2E-Playwright-Devsu#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.9"
+  }
+}
