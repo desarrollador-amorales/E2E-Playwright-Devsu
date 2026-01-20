@@ -13,7 +13,7 @@ export class PurchaseModal {
   }
 
   async confirmPurchase() {
-    await this.page.click('text=Purchase');
-    await this.page.click('text=OK');
+      await this.page.getByRole('button', { name: 'Purchase' }).click();
+      await this.page.getByRole('button', { name: 'OK' }).click();
   }
 }
