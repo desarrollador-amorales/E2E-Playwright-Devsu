@@ -32,15 +32,33 @@ export default defineConfig({
     trace: 'on-first-retry',
     //headless: false, //Ejecuta las pruebas en modo no headless ideal para debuggear
     screenshot: 'only-on-failure',
-    video: 'retain-on-failure',
-    baseURL: 'https://www.demoblaze.com'
+    video: 'retain-on-failure'
   },
 
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      name: 'ui-demoblaze',
+      testDir: './tests',
+      use: {
+        baseURL: 'https://www.demoblaze.com',
+        headless: false,
+        browserName: 'chromium',
+        launchOptions: {
+          slowMo: 600   
+        }
+      },
+    },
+    {
+      name: 'api-petstore',
+      testDir: './api',
+      use: {
+        baseURL: 'https://petstore.swagger.io/',
+        browserName: 'chromium',
+         launchOptions: {
+          slowMo: 300   
+        }
+      },
     },
 
     /*

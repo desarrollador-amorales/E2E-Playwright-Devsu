@@ -1,0 +1,38 @@
+{
+  "pet": {
+    "id": 1923,
+    "category": {
+      "id": 0,
+      "name": "dogs"
+    },
+    "name": "Balto",
+    "photoUrls": [
+      "xxxxx"
+    ],
+    "tags": [
+      {
+        "id": 155,
+        "name": "friendly"
+      }
+    ],
+    "status": "available"
+  },
+  "updated": {
+    "id": 1923,
+    "category": {
+      "id": 0,
+      "name": "dogs"
+    },
+    "name": "Togo Alpha",
+    "photoUrls": [
+      "xxxx"
+    ],
+    "tags": [
+      {
+        "id": 155,
+        "name": "friendly"
+      }
+    ],
+    "status": "sold"
+  }
+}

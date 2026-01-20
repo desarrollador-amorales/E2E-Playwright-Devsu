@@ -3,9 +3,13 @@ Conlcusiones y mejoras:
 - El uso de Page Object Modal es facil de mantener y escalar para proyectos robustos.
 - La data externa evita el (hardcode) de esta forma permite la reutilizacion.
 - Playwright ofrece estabilidad y reporteria.
+- APIRequestContext en playwright nos permite realizar pruebas de forma nativa.
+- El uso de POM en API's mejora la mantenibilidad y reutilizacion
 
 Mejoras:
 - Se podria validar casos de pruebas en donde la compra fue exitosa.
 - Se podria implementar el patron de diseño ScreenPlay (SDET).
 - Manejo avanzando de waits.
+- Manejo de autenticacion
+- Separar data por ambientes.
 - Integrar CI/CD

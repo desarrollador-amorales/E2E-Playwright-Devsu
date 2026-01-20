@@ -1,6 +1,4 @@
-# Demoblaze E2E Automation - Playwright Prueba Devsu
-
-
+# Demoblaze E2E and API Automation  - Playwright
 
 ## Requisitos
 - Node.js >= 18
@@ -14,8 +12,12 @@
    npx playwright install
 
 ## Ejecutar pruebas
-- Modo visible:
-   npx playwright test --headed
+- Prueba e2e
+   npx playwright test --project=ui-demoblaze
+- Prueba Api
+   npx playwright test --project=api-petstore
+-Todas las pruebas
+   npx playwright test
 
 ## Reportes (Opcional)
 Después de ejecutar:
@@ -28,6 +30,8 @@ Ruta del reporte:
 - pages/: Page Object Model
 - tests/: pruebas E2E
 - data/: data externa
+- api/: pruebas de Api
+
 
 
 ## Intefaz grafica (Opcional)
