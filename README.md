@@ -14,14 +14,12 @@
    npx playwright install
 
 ## Ejecutar pruebas
-- Modo headless:
-  npm test
 - Modo visible:
-  npm run test:headed
+   npx playwright test --headed
 
 ## Reportes (Opcional)
 Después de ejecutar:
-  npm run report
+  npx playwright show-report
 
 Ruta del reporte:
   playwright-report/index.html

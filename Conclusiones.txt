@@ -1,0 +1,11 @@
+Conlcusiones y mejoras:
+
+- El uso de Page Object Modal es facil de mantener y escalar para proyectos robustos.
+- La data externa evita el (hardcode) de esta forma permite la reutilizacion.
+- Playwright ofrece estabilidad y reporteria.
+
+Mejoras:
+- Se podria validar casos de pruebas en donde la compra fue exitosa.
+- Se podria implementar el patron de diseño ScreenPlay (SDET).
+- Manejo avanzando de waits.
+- Integrar CI/CD
