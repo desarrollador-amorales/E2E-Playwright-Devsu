@@ -30,7 +30,7 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
-    headless: false, //Ejecuta las pruebas en modo no headless ideal para debuggear
+    //headless: false, //Ejecuta las pruebas en modo no headless ideal para debuggear
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
     baseURL: 'https://www.demoblaze.com'
